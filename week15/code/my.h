@@ -5,6 +5,8 @@
 #include <string.h>
 #include <errno.h>
 #include <sys/types.h>
+#include <pthread.h>
+
 
 #define LOOP 10000000
 #define NUM 4
